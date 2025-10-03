@@ -1,6 +1,6 @@
 CREATE TABLE IF NOT EXISTS sales_data(
 	customer_key INT NOT NULL AUTO_INCREMENT,
-        order_date DATE,
+    order_date DATE,
 	sale_amount INT,
 	days INT,
 	product_key INT,
